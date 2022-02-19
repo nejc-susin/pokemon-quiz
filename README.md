@@ -1,6 +1,6 @@
-# memorium
+# Pokemon Quiz
 
-in latin memoria rerum = memorize things
+A simple game where you name all the 151 Original Pokemon.
 
 ## Project Setup
 
