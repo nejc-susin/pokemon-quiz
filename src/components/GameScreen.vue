@@ -8,13 +8,13 @@
     <div class="max-w-full sm:max-w-md m-auto mb-10 py-5 px-10 text-center sticky top-10 backdrop-blur-lg rounded-lg shadow-xl text-slate-600 dark:text-slate-200">
       <input v-if="!ended" type="text" v-model="playerInput" class="border py-1 px-2 dark:bg-slate-600 dark:border-slate-500" @input="guess" :disabled="ended">
 
-      <h3 class="text-xl font-display font-bold mt-2 mb-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</h3>
+      <div class="text-xl font-display font-bold mt-2 mb-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</div>
 
-      <h3 class="font-light">
+      <div class="font-light">
         <span v-if="!ended">Progress:</span>
         <span v-else>Result:</span>
         <span class="ml-1">{{ guessed.length }} / {{ answers.length }}</span>
-      </h3>
+      </div>
 
       <div class=" h-[0.25em] w-full mt-2 bg-slate-100 dark:bg-slate-600">
         <div class="h-full left-0 bg-cerulean" :style="`width: ${progress}%`"></div>
