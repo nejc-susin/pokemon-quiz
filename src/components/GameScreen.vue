@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 pb-14 dark:bg-slate-700">
-    <div class="text-center mb-10 pt-10 text-slate-600 dark:text-slate-200">
+    <div class="text-center mb-10 pt-12 text-slate-600 dark:text-slate-200">
       <h2 class="text-4xl font-bold font-display mb-5">{{ game.title }}</h2>
       <p class="font-light">{{ game.description }}</p>
     </div>
@@ -76,7 +76,7 @@ const progress = computed(() => {
 });
 
 const playerRank = computed(() => {
-  const quarter = progress.value/10;
+  const quarter = Math.floor(progress.value/10);
   return game.ranks[quarter];
 });
 
