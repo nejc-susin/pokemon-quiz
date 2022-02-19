@@ -1,0 +1,757 @@
+[
+  {
+    "id": 1,
+    "label": "Bulbasaur",
+    "img": ""
+  },
+  {
+    "id": 2,
+    "label": "Ivysaur",
+    "img": ""
+  },
+  {
+    "id": 3,
+    "label": "Venusaur",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "label": "Charmander",
+    "img": ""
+  },
+  {
+    "id": 5,
+    "label": "Charmeleon",
+    "img": ""
+  },
+  {
+    "id": 6,
+    "label": "Charizard",
+    "img": ""
+  },
+  {
+    "id": 7,
+    "label": "Squirtle",
+    "img": ""
+  },
+  {
+    "id": 8,
+    "label": "Wartortle",
+    "img": ""
+  },
+  {
+    "id": 9,
+    "label": "Blastoise",
+    "img": ""
+  },
+  {
+    "id": 10,
+    "label": "Caterpie",
+    "img": ""
+  },
+  {
+    "id": 11,
+    "label": "Metapod",
+    "img": ""
+  },
+  {
+    "id": 12,
+    "label": "Butterfree",
+    "img": ""
+  },
+  {
+    "id": 13,
+    "label": "Weedle",
+    "img": ""
+  },
+  {
+    "id": 14,
+    "label": "Kakuna",
+    "img": ""
+  },
+  {
+    "id": 15,
+    "label": "Beedrill",
+    "img": ""
+  },
+  {
+    "id": 16,
+    "label": "Pidgey",
+    "img": ""
+  },
+  {
+    "id": 17,
+    "label": "Pidgeotto",
+    "img": ""
+  },
+  {
+    "id": 18,
+    "label": "Pidgeot",
+    "img": ""
+  },
+  {
+    "id": 19,
+    "label": "Rattata",
+    "img": ""
+  },
+  {
+    "id": 20,
+    "label": "Raticate",
+    "img": ""
+  },
+  {
+    "id": 21,
+    "label": "Spearow",
+    "img": ""
+  },
+  {
+    "id": 22,
+    "label": "Fearow",
+    "img": ""
+  },
+  {
+    "id": 23,
+    "label": "Ekans",
+    "img": ""
+  },
+  {
+    "id": 24,
+    "label": "Arbok",
+    "img": ""
+  },
+  {
+    "id": 25,
+    "label": "Pikachu",
+    "img": ""
+  },
+  {
+    "id": 26,
+    "label": "Raichu",
+    "img": ""
+  },
+  {
+    "id": 27,
+    "label": "Sandshrew",
+    "img": ""
+  },
+  {
+    "id": 28,
+    "label": "Sandslash",
+    "img": ""
+  },
+  {
+    "id": 29,
+    "label": "Nidoran",
+    "img": ""
+  },
+  {
+    "id": 30,
+    "label": "Nidorina",
+    "img": ""
+  },
+  {
+    "id": 31,
+    "label": "Nidoqueen",
+    "img": ""
+  },
+  {
+    "id": 32,
+    "label": "Nidoran",
+    "img": ""
+  },
+  {
+    "id": 33,
+    "label": "Nidorino",
+    "img": ""
+  },
+  {
+    "id": 34,
+    "label": "Nidoking",
+    "img": ""
+  },
+  {
+    "id": 35,
+    "label": "Clefairy",
+    "img": ""
+  },
+  {
+    "id": 36,
+    "label": "Clefable",
+    "img": ""
+  },
+  {
+    "id": 37,
+    "label": "Vulpix",
+    "img": ""
+  },
+  {
+    "id": 38,
+    "label": "Ninetales",
+    "img": ""
+  },
+  {
+    "id": 39,
+    "label": "Jigglypuff",
+    "img": ""
+  },
+  {
+    "id": 40,
+    "label": "Wigglytuff",
+    "img": ""
+  },
+  {
+    "id": 41,
+    "label": "Zubat",
+    "img": ""
+  },
+  {
+    "id": 42,
+    "label": "Golbat",
+    "img": ""
+  },
+  {
+    "id": 43,
+    "label": "Oddish",
+    "img": ""
+  },
+  {
+    "id": 44,
+    "label": "Gloom",
+    "img": ""
+  },
+  {
+    "id": 45,
+    "label": "Vileplume",
+    "img": ""
+  },
+  {
+    "id": 46,
+    "label": "Paras",
+    "img": ""
+  },
+  {
+    "id": 47,
+    "label": "Parasect",
+    "img": ""
+  },
+  {
+    "id": 48,
+    "label": "Venonat",
+    "img": ""
+  },
+  {
+    "id": 49,
+    "label": "Venomoth",
+    "img": ""
+  },
+  {
+    "id": 50,
+    "label": "Diglett",
+    "img": ""
+  },
+  {
+    "id": 51,
+    "label": "Dugtrio",
+    "img": ""
+  },
+  {
+    "id": 52,
+    "label": "Meowth",
+    "img": ""
+  },
+  {
+    "id": 53,
+    "label": "Persian",
+    "img": ""
+  },
+  {
+    "id": 54,
+    "label": "Psyduck",
+    "img": ""
+  },
+  {
+    "id": 55,
+    "label": "Golduck",
+    "img": ""
+  },
+  {
+    "id": 56,
+    "label": "Mankey",
+    "img": ""
+  },
+  {
+    "id": 57,
+    "label": "Primeape",
+    "img": ""
+  },
+  {
+    "id": 58,
+    "label": "Growlithe",
+    "img": ""
+  },
+  {
+    "id": 59,
+    "label": "Arcanine",
+    "img": ""
+  },
+  {
+    "id": 60,
+    "label": "Poliwag",
+    "img": ""
+  },
+  {
+    "id": 61,
+    "label": "Poliwhirl",
+    "img": ""
+  },
+  {
+    "id": 62,
+    "label": "Poliwrath",
+    "img": ""
+  },
+  {
+    "id": 63,
+    "label": "Abra",
+    "img": ""
+  },
+  {
+    "id": 64,
+    "label": "Kadabra",
+    "img": ""
+  },
+  {
+    "id": 65,
+    "label": "Alakazam",
+    "img": ""
+  },
+  {
+    "id": 66,
+    "label": "Machop",
+    "img": ""
+  },
+  {
+    "id": 67,
+    "label": "Machoke",
+    "img": ""
+  },
+  {
+    "id": 68,
+    "label": "Machamp",
+    "img": ""
+  },
+  {
+    "id": 69,
+    "label": "Bellsprout",
+    "img": ""
+  },
+  {
+    "id": 70,
+    "label": "Weepinbell",
+    "img": ""
+  },
+  {
+    "id": 71,
+    "label": "Victreebel",
+    "img": ""
+  },
+  {
+    "id": 72,
+    "label": "Tentacool",
+    "img": ""
+  },
+  {
+    "id": 73,
+    "label": "Tentacruel",
+    "img": ""
+  },
+  {
+    "id": 74,
+    "label": "Geodude",
+    "img": ""
+  },
+  {
+    "id": 75,
+    "label": "Graveler",
+    "img": ""
+  },
+  {
+    "id": 76,
+    "label": "Golem",
+    "img": ""
+  },
+  {
+    "id": 77,
+    "label": "Ponyta",
+    "img": ""
+  },
+  {
+    "id": 78,
+    "label": "Rapidash",
+    "img": ""
+  },
+  {
+    "id": 79,
+    "label": "Slowpoke",
+    "img": ""
+  },
+  {
+    "id": 80,
+    "label": "Slowbro",
+    "img": ""
+  },
+  {
+    "id": 81,
+    "label": "Magnemite",
+    "img": ""
+  },
+  {
+    "id": 82,
+    "label": "Magneton",
+    "img": ""
+  },
+  {
+    "id": 83,
+    "label": "Farfetch",
+    "img": ""
+  },
+  {
+    "id": 84,
+    "label": "Doduo",
+    "img": ""
+  },
+  {
+    "id": 85,
+    "label": "Dodrio",
+    "img": ""
+  },
+  {
+    "id": 86,
+    "label": "Seel",
+    "img": ""
+  },
+  {
+    "id": 87,
+    "label": "Dewgong",
+    "img": ""
+  },
+  {
+    "id": 88,
+    "label": "Grimer",
+    "img": ""
+  },
+  {
+    "id": 89,
+    "label": "Muk",
+    "img": ""
+  },
+  {
+    "id": 90,
+    "label": "Shellder",
+    "img": ""
+  },
+  {
+    "id": 91,
+    "label": "Cloyster",
+    "img": ""
+  },
+  {
+    "id": 92,
+    "label": "Gastly",
+    "img": ""
+  },
+  {
+    "id": 93,
+    "label": "Haunter",
+    "img": ""
+  },
+  {
+    "id": 94,
+    "label": "Gengar",
+    "img": ""
+  },
+  {
+    "id": 95,
+    "label": "Onix",
+    "img": ""
+  },
+  {
+    "id": 96,
+    "label": "Drowzee",
+    "img": ""
+  },
+  {
+    "id": 97,
+    "label": "Hypno",
+    "img": ""
+  },
+  {
+    "id": 98,
+    "label": "Krabby",
+    "img": ""
+  },
+  {
+    "id": 99,
+    "label": "Kingler",
+    "img": ""
+  },
+  {
+    "id": 100,
+    "label": "Voltorb",
+    "img": ""
+  },
+  {
+    "id": 101,
+    "label": "Electrode",
+    "img": ""
+  },
+  {
+    "id": 102,
+    "label": "Exeggcute",
+    "img": ""
+  },
+  {
+    "id": 103,
+    "label": "Exeggutor",
+    "img": ""
+  },
+  {
+    "id": 104,
+    "label": "Cubone",
+    "img": ""
+  },
+  {
+    "id": 105,
+    "label": "Marowak",
+    "img": ""
+  },
+  {
+    "id": 106,
+    "label": "Hitmonlee",
+    "img": ""
+  },
+  {
+    "id": 107,
+    "label": "Hitmonchan",
+    "img": ""
+  },
+  {
+    "id": 108,
+    "label": "Lickitung",
+    "img": ""
+  },
+  {
+    "id": 109,
+    "label": "Koffing",
+    "img": ""
+  },
+  {
+    "id": 110,
+    "label": "Weezing",
+    "img": ""
+  },
+  {
+    "id": 111,
+    "label": "Rhyhorn",
+    "img": ""
+  },
+  {
+    "id": 112,
+    "label": "Rhydon",
+    "img": ""
+  },
+  {
+    "id": 113,
+    "label": "Chansey",
+    "img": ""
+  },
+  {
+    "id": 114,
+    "label": "Tangela",
+    "img": ""
+  },
+  {
+    "id": 115,
+    "label": "Kangaskhan",
+    "img": ""
+  },
+  {
+    "id": 116,
+    "label": "Horsea",
+    "img": ""
+  },
+  {
+    "id": 117,
+    "label": "Seadra",
+    "img": ""
+  },
+  {
+    "id": 118,
+    "label": "Goldeen",
+    "img": ""
+  },
+  {
+    "id": 119,
+    "label": "Seaking",
+    "img": ""
+  },
+  {
+    "id": 120,
+    "label": "Staryu",
+    "img": ""
+  },
+  {
+    "id": 121,
+    "label": "Starmie",
+    "img": ""
+  },
+  {
+    "id": 122,
+    "label": "Mr. Mime",
+    "img": ""
+  },
+  {
+    "id": 123,
+    "label": "Scyther",
+    "img": ""
+  },
+  {
+    "id": 124,
+    "label": "Jynx",
+    "img": ""
+  },
+  {
+    "id": 125,
+    "label": "Electabuzz",
+    "img": ""
+  },
+  {
+    "id": 126,
+    "label": "Magmar",
+    "img": ""
+  },
+  {
+    "id": 127,
+    "label": "Pinsir",
+    "img": ""
+  },
+  {
+    "id": 128,
+    "label": "Tauros",
+    "img": ""
+  },
+  {
+    "id": 129,
+    "label": "Magikarp",
+    "img": ""
+  },
+  {
+    "id": 130,
+    "label": "Gyarados",
+    "img": ""
+  },
+  {
+    "id": 131,
+    "label": "Lapras",
+    "img": ""
+  },
+  {
+    "id": 132,
+    "label": "Ditto",
+    "img": ""
+  },
+  {
+    "id": 133,
+    "label": "Eevee",
+    "img": ""
+  },
+  {
+    "id": 134,
+    "label": "Vaporeon",
+    "img": ""
+  },
+  {
+    "id": 135,
+    "label": "Jolteon",
+    "img": ""
+  },
+  {
+    "id": 136,
+    "label": "Flareon",
+    "img": ""
+  },
+  {
+    "id": 137,
+    "label": "Porygon",
+    "img": ""
+  },
+  {
+    "id": 138,
+    "label": "Omanyte",
+    "img": ""
+  },
+  {
+    "id": 139,
+    "label": "Omastar",
+    "img": ""
+  },
+  {
+    "id": 140,
+    "label": "Kabuto",
+    "img": ""
+  },
+  {
+    "id": 141,
+    "label": "Kabutops",
+    "img": ""
+  },
+  {
+    "id": 142,
+    "label": "Aerodactyl",
+    "img": ""
+  },
+  {
+    "id": 143,
+    "label": "Snorlax",
+    "img": ""
+  },
+  {
+    "id": 144,
+    "label": "Articuno",
+    "img": ""
+  },
+  {
+    "id": 145,
+    "label": "Zapdos",
+    "img": ""
+  },
+  {
+    "id": 146,
+    "label": "Moltres",
+    "img": ""
+  },
+  {
+    "id": 147,
+    "label": "Dratini",
+    "img": ""
+  },
+  {
+    "id": 148,
+    "label": "Dragonair",
+    "img": ""
+  },
+  {
+    "id": 149,
+    "label": "Dragonite",
+    "img": ""
+  },
+  {
+    "id": 150,
+    "label": "Mewtwo",
+    "img": ""
+  },
+  {
+    "id": 151,
+    "label": "Mew",
+    "img": ""
+  }
+]
