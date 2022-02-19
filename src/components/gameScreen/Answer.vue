@@ -3,7 +3,7 @@
 
     <img :src="hidden ? unknownUrl : imgUrl" class="">
 
-    <div class="text-sm text-center text-slate-700">
+    <div class="text-sm text-center text-slate-600 dark:text-slate-200">
       <div class="text-sm font-bold">#{{ answer.id }}</div>
       <span v-if="hidden">?</span>
       <span v-else>{{ answer.label }}</span>

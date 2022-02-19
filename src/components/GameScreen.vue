@@ -1,14 +1,14 @@
 <template>
-  <div class="px-4">
-    <div class="text-center mb-14 mt-5 text-slate-600">
+  <div class="px-4 pb-14 dark:bg-slate-700">
+    <div class="text-center mb-10 pt-10 text-slate-600 dark:text-slate-200">
       <h2 class="text-4xl font-bold font-display mb-5">{{ game.title }}</h2>
       <p class="font-light">{{ game.description }}</p>
     </div>
 
-    <div class="max-w-full sm:max-w-md m-auto mb-10 py-5 px-10 text-center sticky top-10 backdrop-blur-lg rounded-lg shadow-xl text-slate-600">
-      <input v-if="!ended" type="text" v-model="playerInput" class="border py-1 px-2" @input="guess" :disabled="ended">
+    <div class="max-w-full sm:max-w-md m-auto mb-10 py-5 px-10 text-center sticky top-10 backdrop-blur-lg rounded-lg shadow-xl text-slate-600 dark:text-slate-200">
+      <input v-if="!ended" type="text" v-model="playerInput" class="border py-1 px-2 dark:bg-slate-600 dark:border-slate-500" @input="guess" :disabled="ended">
 
-      <h3 class="text-xl font-display font-bold mt-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</h3>
+      <h3 class="text-xl font-display font-bold mt-2 mb-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</h3>
 
       <h3 class="font-light">
         <span v-if="!ended">Progress:</span>
@@ -16,13 +16,13 @@
         <span class="ml-1">{{ guessed.length }} / {{ answers.length }}</span>
       </h3>
 
-      <div class=" h-[0.25em] w-full mt-3 bg-slate-100">
-        <div class="h-full left-0 bg-green-600" :style="`width: ${progress}%`"></div>
+      <div class=" h-[0.25em] w-full mt-2 bg-slate-100 dark:bg-slate-600">
+        <div class="h-full left-0 bg-cerulean" :style="`width: ${progress}%`"></div>
       </div>
 
       <div v-if="ended" class="mt-5">
         <div class="text-sm font-light">Your Pokemon trainer rank:</div>
-        <div class="text-lg font-display text-amber-500">{{playerRank}}</div>
+        <div class="text-2xl font-display text-emerald-500">{{playerRank}}</div>
       </div>
     </div>
 
@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="bottom-0 mt-16 pt-5 pb-8 text-center text-sm bg-slate-50 text-slate-500 font-thin">
+  <div class="bottom-0 pt-8 pb-8 text-center text-sm bg-slate-50 dark:bg-slate-600 text-slate-600 dark:text-slate-200 font-thin">
     <div>Github</div>
   </div>
 
