@@ -25,10 +25,10 @@ const props = defineProps({
   }
 })
 let imgUrl = ref('');
-let unknownUrl = new URL(`../../assets/img/pokemon/unknown.png`, import.meta.url).href;
+let unknownUrl = new URL(`../assets/img/pokemon/unknown.png`, import.meta.url).href;
 
 onMounted(() => {
-  imgUrl.value = new URL(`../../assets/img/pokemon/${props.answer.id}.png`, import.meta.url).href;
+  imgUrl.value = new URL(`../assets/img/pokemon/${props.answer.id}.png`, import.meta.url).href;
 })
 </script>
 

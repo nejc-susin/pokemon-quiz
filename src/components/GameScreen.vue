@@ -52,11 +52,11 @@ type Answer = {
 }
 
 import {computed, ref} from 'vue';
-import pokemon from '@/assets/data/pokemon.json';
-import Answer from '@/components/gameScreen/Answer.vue';
+import pokemon from '@/assets/pokemon.json';
+import Answer from '@/components/Answer.vue';
 
 const game = {
-  title: 'Original 151 Pokemon',
+  title: 'Original 151 Pokemon Quiz',
   description: 'Can you name all the Kanto region Pokemon from the original Red, Blue and Yellow Versions in under 15 minutes?',
   timeLimit: 900,
   ranks: ['Beginner', 'Novice', 'Normal', 'Serious', 'Great', 'Advanced', 'Pro', 'Ultra', 'Expert', 'Legendary', 'Pokemon Master'],

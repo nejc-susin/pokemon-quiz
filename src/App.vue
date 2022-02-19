@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {ref} from "vue";
 import MoonIcon from "@/components/icons/MoonIcon.vue";
+import GameScreen from "@/components/GameScreen.vue";
 
 const darkMode = ref(false);
 function toggleDarkMode() {
@@ -14,7 +15,7 @@ function toggleDarkMode() {
     <span class="align-middle text-slate-300 group-hover:text-slate-400">Dark mode</span>
   </div>
   <div :class="{dark: darkMode}">
-    <RouterView/>
+    <GameScreen></GameScreen>
   </div>
 </template>
 
