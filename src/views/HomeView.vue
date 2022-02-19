@@ -1,11 +1,11 @@
 <script lang="ts">
-import HelloWorld from "@/components/HelloWorld.vue";
 
+import GameScreen from "@/components/GameScreen.vue";
 export default {
-  components: {HelloWorld}
+  components: {GameScreen}
 }
 </script>
 
 <template>
-  <HelloWorld msg="Hello world!"></HelloWorld>
+  <GameScreen></GameScreen>
 </template>
