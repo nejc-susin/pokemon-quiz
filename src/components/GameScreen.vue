@@ -38,7 +38,7 @@
   </div>
 
   <div class="bottom-0 pt-8 pb-8 text-center text-sm bg-slate-50 dark:bg-slate-600 text-slate-600 dark:text-slate-200 font-thin">
-    <div>Github</div>
+    <a href="https://github.com/nejc-susin/pokemon-quiz" target="_blank">See the source on GitHub</a>
   </div>
 
 </template>
