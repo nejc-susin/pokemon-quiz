@@ -5,10 +5,22 @@
       <p class="font-light">{{ game.description }}</p>
     </div>
 
-    <div class="max-w-full sm:max-w-md m-auto mb-10 py-5 px-10 text-center sticky top-10 backdrop-blur-lg rounded-lg shadow-xl text-slate-600 dark:text-slate-200">
-      <input v-if="!ended" type="text" v-model="playerInput" class="border py-1 px-2 dark:bg-slate-600 dark:border-slate-500" @input="guess" :disabled="ended">
+    <div class="max-w-full sm:max-w-md m-auto mb-10 py-5 px-10 z-10 text-center sticky top-10 backdrop-blur-lg rounded-lg shadow-xl text-slate-600 dark:text-slate-200">
 
-      <div class="text-xl font-display font-bold mt-2 mb-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</div>
+      <div class="text-xs mb-1">
+        <GameControl :disabled="!started" @click="restart">Start over</GameControl>
+        |
+        <GameControl :disabled="!started || ended" @click.native="pause">{{ paused ? 'Resume' : 'Pause'}}</GameControl>
+        |
+        <GameControl :disabled="!started || ended" @click="end">Give up</GameControl>
+      </div>
+
+      <input v-if="!ended" type="text" v-model="playerInput" :disabled="ended"
+             class="border py-1 px-2 dark:bg-slate-600 dark:border-slate-500"
+             placeholder="Enter a Pokemon's name"
+             @input="guess">
+
+      <div class="text-xl font-display font-bold mt-3 mb-2" :class="{'text-red-600': timeRemaining < 10}">{{ timer }}</div>
 
       <div class="font-light">
         <span v-if="!ended">Progress:</span>
@@ -27,11 +39,14 @@
     </div>
 
     <div>
-      <div class="flex flex-row flex-wrap justify-center">
+      <div class="flex flex-row flex-wrap justify-center"
+           :class="{'grayscale': paused}"
+      >
         <Answer
             v-for="answer in answers" :key="answer.id"
             :answer="answer"
-            :hidden="!guessed.includes(answer.id)">
+            :guessed="!paused && guessed.includes(answer.id)"
+            :missed="ended && !guessed.includes(answer.id)">
         </Answer>
       </div>
     </div>
@@ -44,6 +59,8 @@
 </template>
 
 <script setup lang="ts">
+
+import GameControl from "@/components/GameControl.vue";
 
 type Answer = {
   id: number,
@@ -65,6 +82,7 @@ const answers = pokemon;
 
 let started = ref<boolean>(false);
 let ended = ref<boolean>(false);
+let paused = ref<boolean>(false);
 let guessed = ref<number[]>([]);
 let interval: number | undefined = undefined;
 
@@ -107,6 +125,9 @@ function guess(evt: InputEvent) {
 
 function startGame() {
   interval = window.setInterval(() => {
+    if (paused.value) {
+      return;
+    }
     timeRemaining.value -= 1;
     if (timeRemaining.value <= 0) {
       stopGame();
@@ -118,6 +139,21 @@ function startGame() {
 function stopGame() {
   ended.value = true;
   window.clearInterval(interval);
+}
+
+function pause() {
+  paused.value = !paused.value;
+}
+
+function restart() {
+  location.reload();
+}
+
+function end() {
+  if (paused.value) {
+    pause();
+  }
+  stopGame();
 }
 </script>
 
